@@ -42,6 +42,7 @@ proyecto-adidas/
 │  └─ scripts/             # scripts de Python
 ├─ assets/                 # capturas del dashboard
 └─ README.md
+
 🔄 Flujo de trabajo
 
 Exploración del archivo Excel original
