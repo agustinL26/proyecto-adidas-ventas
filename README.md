@@ -1,22 +1,19 @@
-# 📊 Adidas Sales Dashboard | Power BI + Python
+# 📊 Adidas Sales Dashboard (Power BI + Python)
 
-Proyecto de análisis de ventas comerciales basado en datos de Adidas.
-El objetivo es construir un dashboard claro y profesional que permita analizar
-el desempeño de ventas, ganancias y unidades vendidas a lo largo del tiempo,
-por región y por categoría de producto.
+Proyecto de análisis de ventas basado en un dataset de Adidas.  
+El objetivo es construir un dashboard claro y profesional para analizar **ventas**, **ganancias** y **unidades vendidas** a lo largo del tiempo, por **región** y por **categoría de producto**.
 
-Este proyecto forma parte de un portfolio de análisis de datos orientado a
-visualización, toma de decisiones y comunicación de insights.
+Este proyecto forma parte de un **portfolio de análisis de datos**, orientado a visualización, toma de decisiones y comunicación de insights.
 
 ---
 
 ## 🎯 Objetivos del proyecto
 
-- Analizar la evolución de las ventas a lo largo del tiempo
-- Identificar las regiones con mayor volumen de ventas
-- Comparar el desempeño por categoría de producto
-- Construir KPIs comerciales claros y accionables
-- Mostrar un flujo completo de trabajo: datos → procesamiento → dashboard
+- Analizar la evolución de las ventas a lo largo del tiempo  
+- Identificar las regiones con mayor volumen de ventas  
+- Comparar el desempeño por categoría de producto  
+- Construir KPIs comerciales claros y accionables  
+- Mostrar un flujo completo: **datos → procesamiento → visualización**
 
 ---
 
@@ -26,86 +23,78 @@ visualización, toma de decisiones y comunicación de insights.
   - Pandas
   - Limpieza y transformación de datos
 - **Power BI**
-  - Modelado
-  - Medidas
+  - Modelado de datos
+  - Medidas (DAX)
   - Visualización interactiva
-- **GitHub**
-  - Versionado del proyecto
-  - Documentación
+- **Git & GitHub**
+  - Versionado
+  - Documentación del proyecto
 
 ---
 
 ## 📂 Estructura del proyecto
+
+```text
 proyecto-adidas/
-│
-├── data/
-│ ├── raw/ # Datos originales (Excel)
-│ └── processed/ # Datos procesados para Power BI
-│ └── adidas_ventas_tabla_plana.csv
-│
-├── scripts/
-│ ├── 01_explore_excel.py # Exploración inicial del dataset
-│ └── 02_build_flat_table.py # Construcción de tabla plana
-│
-├── dashboard/
-│ └── adidas_dashboard.pbix # Dashboard en Power BI
-│
-└── README.md
+├─ data/
+│  ├─ raw/                 # Excel original
+│  ├─ processed/           # CSV final para Power BI
+│  └─ scripts/             # scripts de Python
+├─ assets/                 # capturas del dashboard
+└─ README.md
+🔄 Flujo de trabajo
 
----
+Exploración del archivo Excel original
 
-## 🔄 Flujo de trabajo
+Identificación de tablas y claves
 
-1. Exploración del archivo Excel original  
-2. Identificación de tablas y relaciones  
-3. Construcción de una tabla plana con Python  
-4. Exportación del dataset procesado a CSV  
-5. Creación del dashboard en Power BI  
-6. Diseño visual orientado a usuarios de negocio  
+Construcción de una tabla plana con Python
 
----
+Exportación del dataset procesado a CSV
 
-## 📈 Dashboard
+Creación del dashboard en Power BI
 
-El dashboard incluye:
+Diseño visual orientado a usuarios de negocio
 
-### KPIs principales
-- Ventas Totales
-- Ganancia Total
-- Unidades Vendidas
+📈 Dashboard
+KPIs principales
 
-### Visualizaciones
-- Evolución de ventas a lo largo del tiempo
-- Ventas por región
-- Ventas por categoría de producto
-- Segmentador por año para análisis dinámico
+Ventas Totales
 
-El diseño prioriza claridad, jerarquía visual y facilidad de interpretación.
+Ganancia Total
 
----
+Unidades Vendidas
 
-## 📌 Principales insights
+Visualizaciones
 
-- Las ventas muestran una tendencia creciente a lo largo del período analizado
-- Existen diferencias claras de desempeño entre regiones
-- Algunas categorías concentran la mayor parte de las ventas totales
+Evolución de ventas en el tiempo
 
-*(Los insights pueden variar según el período seleccionado en el dashboard)*
+Ventas por región
 
----
+Ventas por categoría de producto
 
-## 🚀 Próximos pasos
+Segmentador por año para análisis dinámico
 
-- Publicar el dashboard en Power BI Service
-- Integrarlo en un portfolio web personal
-- Ampliar el análisis con métricas adicionales
-- Crear una versión orientada a clientes no técnicos
+🖼️ Capturas del dashboard
+Vista general
 
----
+Ventas en el tiempo
 
-## 👤 Autor
+Ventas por región
 
-**Agustín Leiva**  
-Estudiante de Economía | Análisis de Datos  
-Power BI · Python · SQL  
+📌 Notas
 
+El dashboard se alimenta del archivo:
+
+data/processed/adidas_ventas_tabla_plana.csv
+
+
+El foco del proyecto está en mostrar un flujo completo de trabajo de análisis de datos aplicado a negocio.
+
+👤 Autor
+
+Agustín Leiva
+Estudiante de Economía | Análisis de Datos
+Power BI · Python · SQL
+
+Proyecto desarrollado con fines educativos y de portfolio.
